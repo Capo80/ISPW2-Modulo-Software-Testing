@@ -1,14 +1,14 @@
 # ISPW2-Modulo-Software-Testing
 Repository di consegna per il modulo software testing di ISPW2.
 
-Per fare la build eseguendo solamente i test sviluppati per il corso usare i comandi:
+Per fare la build (generando anche i report di jacoco) eseguendo solamente i test sviluppati per il corso usare i comandi:
 
 ```
 mvn '-Dtest=org.apache.zookeeper.mytests.*Test' -DfailIfNoTests=false clean verify
 mvn '-Dtest=org.apache.bookkeeper.mytests.*Test' -DfailIfNoTests=false clean verify
 ```
 
-Questi comandi genereranno anche i report di jacoco, per generare quelli di pit usare i comandi:
+Per generare i report di pit usare i comandi:
 
 ```
 mvn org.pitest:pitest-maven:mutationCoverage surefire:test '-Dtest=org.apache.zookeeper.mytests.*Test' -DfailIfNoTests=false 
