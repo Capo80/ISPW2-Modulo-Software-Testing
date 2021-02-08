@@ -20,10 +20,14 @@ La generazione dei report di pit sul mio computer è stata particolarmente lenta
 ## Links
 
 BOOKKEEPER GitHub: https://github.com/Capo80/bookkeeper
+
 BOOKKEEPER TravisCI: https://travis-ci.com/github/Capo80/bookkeeper
+
 BOOKKEEPER SonarCloud: https://sonarcloud.io/dashboard?id=Capo80_bookkeeper
 
 ZOOKEEPER Github: https://github.com/Capo80/zookeeper_testing
+
 ZOOKEEPER TravisCI: https://travis-ci.com/github/Capo80/zookeeper_testing
+
 ZOOKEEPER SonarCloud: https://sonarcloud.io/dashboard?id=Capo80_zookeeper_testing
 
